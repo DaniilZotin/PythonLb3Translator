@@ -1,0 +1,11 @@
+Python is good for all forms of programming, which makes its user base grow rapidly. Cross-platform shell scripting,
+quick automation, simple web development, data analysis and visualization, AI and ML are some examples.
+Often, specialists use Python to better perform a variety of tasks in different disciplines. Better performance,
+among others, may be achieved with the help of automation. Finance, insurance, and marketing are the primary fields,
+in which people face the necessity to do tasks that are repetitive and boring: viewing, copying, renaming, and uploading
+files to a server, downloading websites or parsing data. Instead, a programmer can write a script in Python and automate it all.
+Moreover, you should not necessarily be a software developer to use Python. The language allows facilitating data analysis and
+visualization. It has a rich ecosystem comprising efficient libraries for data processing and therefore assisting data scientists
+in performing complex numeric computing operations.
+
+

@@ -1,0 +1,110 @@
+Language		ISO-639 code			Text
+-----------------------------------------------------
+afrikaans      	af             	Hello Wêreld!
+albanian       	sq             	Përshendetje Botë!
+amharic        	am             	ሰላም ልዑል!
+arabic         	ar             	مرحبا بالعالم!
+armenian       	hy             	Բարեւ աշխարհ!
+azerbaijani    	az             	Salam, dünya!
+basque         	eu             	Kaixo Mundua!
+belarusian     	be             	Прывітанне Сусвет!
+bengali        	bn             	ওহে বিশ্ব!
+bosnian        	bs             	Zdravo svijete!
+bulgarian      	bg             	Здравей свят!
+catalan        	ca             	Hola món!
+cebuano        	ceb            	Hello, kalibutan!
+chichewa       	ny             	Moni Dziko Lapansi!
+chinese (simplified)	zh-cn          	你好世界！
+chinese (traditional)	zh-tw          	你好世界！
+corsican       	co             	Salute, mondu !
+croatian       	hr             	Pozdrav svijete!
+czech          	cs             	Ahoj světe!
+danish         	da             	Hej Verden!
+dutch          	nl             	Hallo Wereld!
+english        	en             	Hello, world!
+esperanto      	eo             	Saluton mondo!
+estonian       	et             	Tere, Maailm!
+filipino       	tl             	Hello, mundo!
+finnish        	fi             	Hei maailma!
+french         	fr             	Bonjour le monde!
+frisian        	fy             	Hallo wrâld!
+galician       	gl             	Ola, mundo!
+georgian       	ka             	Გამარჯობა მსოფლიო!
+german         	de             	Hallo Welt!
+greek          	el             	Γειά σου Κόσμε!
+gujarati       	gu             	હેલો, વિશ્વ!
+haitian creole 	ht             	Bonjou, mond!
+hausa          	ha             	Sannu Duniya!
+hawaiian       	haw            	Aloha, honua!
+hebrew         	iw             	שלום עולם!
+hebrew         	he             	שלום עולם!
+hindi          	hi             	हैलो वर्ल्ड!
+hmong          	hmn            	Nyob zoo, ntiaj teb!
+hungarian      	hu             	Helló Világ!
+icelandic      	is             	Halló heimur!
+igbo           	ig             	Ndewo Ụwa!
+indonesian     	id             	Halo Dunia!
+irish          	ga             	Dia duit, domhan!
+italian        	it             	Ciao mondo!
+japanese       	ja             	こんにちは世界！
+javanese       	jw             	Hello, donya!
+kannada        	kn             	ಹಲೋ, ವಿಶ್ವ!
+kazakh         	kk             	Сәлем Әлем!
+khmer          	km             	សួស្តី​ពិភពលោក!
+korean         	ko             	안녕, 세계!
+kurdish (kurmanji)	ku             	Silav, dinya!
+kyrgyz         	ky             	Салам дүйнө!
+lao            	lo             	ສະ​ບາຍ​ດີ​ຊາວ​ໂລກ!
+latin          	la             	Salve, mundi!
+latvian        	lv             	Sveika pasaule!
+lithuanian     	lt             	Labas pasauli!
+luxembourgish  	lb             	Moien Welt!
+macedonian     	mk             	Здраво свету!
+malagasy       	mg             	Hello World!
+malay          	ms             	Hai dunia!
+malayalam      	ml             	ഹലോ വേൾഡ്!
+maltese        	mt             	Hello dinja!
+maori          	mi             	Kia ora, te ao!
+marathi        	mr             	नमस्कार, जग!
+mongolian      	mn             	Сайн уу, дэлхий!
+myanmar (burmese)	my             	မင်္ဂလာပါကမ္ဘာလောက!
+nepali         	ne             	नमस्कार संसार!
+norwegian      	no             	Hei Verden!
+odia           	or             	ନମସ୍କାର ବିଶ୍ୱବାସି!
+pashto         	ps             	سلام نړی!
+persian        	fa             	سلام دنیا!
+polish         	pl             	Witaj świecie!
+portuguese     	pt             	Olá Mundo!
+punjabi        	pa             	ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ ਦੁਨਿਆ!
+romanian       	ro             	Salut Lume!
+russian        	ru             	Привет, мир!
+samoan         	sm             	Talofa, lalolagi!
+scots gaelic   	gd             	Hàlo a Shaoghail!
+serbian        	sr             	Здраво Свете!
+sesotho        	st             	Lefatše Lumela!
+shona          	sn             	Mhoro, nyika!
+sindhi         	sd             	هيلو، دنيا!
+sinhala        	si             	හෙලෝ වර්ල්ඩ්!
+slovak         	sk             	Ahoj svet!
+slovenian      	sl             	Pozdravljen, svet!
+somali         	so             	Hello, adduunyo!
+spanish        	es             	¡Hola Mundo!
+sundanese      	su             	Halo Dunya!
+swahili        	sw             	Salamu, Dunia!
+swedish        	sv             	Hej världen!
+tajik          	tg             	Салом Ҷаҳон!
+tamil          	ta             	வணக்கம், உலகம்!
+telugu         	te             	హలో, ప్రపంచం!
+thai           	th             	สวัสดีชาวโลก!
+turkish        	tr             	Selam Dünya!
+ukrainian      	uk             	Привіт Світ!
+urdu           	ur             	ہیلو، دنیا!
+uyghur         	ug             	ياخشىمۇسىز ، دۇنيا!
+uzbek          	uz             	Salom Dunyo!
+vietnamese     	vi             	Chào thế giới!
+welsh          	cy             	Helo Byd!
+xhosa          	xh             	Molo Lizwe!
+yiddish        	yi             	העלא וועלט!
+yoruba         	yo             	Mo ki O Ile Aiye!
+zulu           	zu             	Sawubona Mhlaba!
+......................................................
