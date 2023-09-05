@@ -2,7 +2,7 @@
   "name" : "text.txt",
   "code" : "kn",
   "view" : "file",
-  "quantitySymbols" : 300,
-  "quantityWords" : 20,
+  "quantitySymbols" : 900,
+  "quantityWords" : 45,
   "quantitySentences" : 6
 }

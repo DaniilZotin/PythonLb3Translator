@@ -35,7 +35,7 @@ def GetInformationAboutFile():
     print("Name of the file: ", file_name)
     print(f"Size '{file_name}' in bites: {file_size_bytes} ")
     print("Symbols in the text: ", character_count)
-    print("Word: ", word_count)
+    print("Words: ", word_count)
     print("Count of sentence in the text: ", sentence_count)
     print("Language in the file: ", CodeLang(detected_language))
 

@@ -102,8 +102,8 @@ def LanguageList(out="screen", text=None) -> str:
                     translation = ""
                     if text:
                         translation = translator.translate(text, src='en', dest=lang_code).text
-                    lang_name = lang_name.ljust(15)  # Вирівнюємо назву мови
-                    lang_code = lang_code.ljust(15)  # Вирівнюємо ISO-639 код
+                    lang_name = lang_name.ljust(15)
+                    lang_code = lang_code.ljust(15)
                     file.write(f"{lang_name}\t{lang_code}\t{translation}\n")
                 file.write("......................................................")
             return "We have written list of language we can translate into languages_table.txt file"
@@ -114,8 +114,8 @@ def LanguageList(out="screen", text=None) -> str:
                 translation = ""
                 if text:
                     translation = translator.translate(text, src='en', dest=lang_code).text
-                lang_name = lang_name.ljust(15)  # Вирівнюємо назву мови
-                lang_code = lang_code.ljust(15)  # Вирівнюємо ISO-639 код
+                lang_name = lang_name.ljust(15)
+                lang_code = lang_code.ljust(15)
                 print(f"{lang_name}\t\t{lang_code}\t\t{translation}")
             print("......................................................")
             return "It is list of languages that googletrans can translate"
