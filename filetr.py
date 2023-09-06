@@ -125,7 +125,7 @@ def OutputResult(text):
         print(text)
         exit()
     if(view == "file"):
-        path_to_folder = "C:/Users/Daniil/PycharmProjects/ProjectLb3DifferentTranslators/FilesWithResult/"
+        path_to_folder = "/files_with_result/"
         new_file_name = "translation_" + language
         with open(path_to_folder + new_file_name, 'w', encoding='utf-8') as file:
             file.write(text)
