@@ -112,9 +112,8 @@ def OutputResult(text):
     if(view == "screen"):
         print("Language you get in the result: ", language)
         print(text)
-        exit()
     if(view == "file"):
-        path_to_folder = "/files_with_result/"
+        path_to_folder = "./files_with_result/"
         new_file_name = "translation_" + language
         with open(path_to_folder + new_file_name, 'w', encoding='utf-8') as file:
             file.write(text)
@@ -140,9 +139,7 @@ config = JsonConfigurationOpen()
 language = config["code"]
 OutputResult(TransLate(ReadFile(),"en",language))
 print("*******\n")
-print("*******\n")
-print("*******\n")
-print("*******\n")
+
 
 
 

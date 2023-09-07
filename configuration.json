@@ -1,8 +1,8 @@
 {
   "name" : "text.txt",
   "code" : "kn",
-  "view" : "screen",
-  "quantitySymbols" : 900,
+  "view" : "file",
+  "quantitySymbols" : 25,
   "quantityWords" : 45,
   "quantitySentences" : 6
 }
