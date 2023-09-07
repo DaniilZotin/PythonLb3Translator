@@ -4,6 +4,7 @@ import nltk
 from langdetect import detect
 from deep_translator import GoogleTranslator
 import pycountry
+from main_package.first_part.translator import TransLate
 
 
 
@@ -54,7 +55,7 @@ def CodeLang(lang) -> str:
 def ReadFile() -> str:
     """
         Read the text until certain rules are followed,
-        It returns result of read
+        It returns result of reading
     """
     config = JsonConfigurationOpen()
 
@@ -146,5 +147,12 @@ def JsonConfigurationOpen():
         exit()
 
 GetInformationAboutFile()
+print("*******\n")
 OutputResult(Translate(ReadFile()))
+print("*******\n")
+
+
+config = JsonConfigurationOpen()
+language = config["code"]
+OutputResult(TransLate(ReadFile(),"en",language))
 

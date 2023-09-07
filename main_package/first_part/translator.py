@@ -8,7 +8,7 @@ def TransLate(text: str, src: str, dest: str) -> str:
 
     :param text: string you want to translate
     :param src: ISO-639 code of language you entered
-    :param src: ISO-639 code of language you want to get in the result of translation
+    :param dest: ISO-639 code of language you want to get in the result of translation
     """
     try:
         translator = Translator()
@@ -18,14 +18,15 @@ def TransLate(text: str, src: str, dest: str) -> str:
         return str(e)
 
 # First function
-print("-------------------------------------")
-print("1. TransLate - result")
-text_to_translate = "Hello, world!"
-src_language = "en"
-dest_language = "uk"
-translated_text = TransLate(text_to_translate, src_language, dest_language)
-print(translated_text)
-print("-------------------------------------")
+if __name__ == "__main__":
+    print("-------------------------------------")
+    print("1. TransLate - result")
+    text_to_translate = "Hello, world!"
+    src_language = "en"
+    dest_language = "uk"
+    translated_text = TransLate(text_to_translate, src_language, dest_language)
+    print(translated_text)
+    print("-------------------------------------")
 
 
 def LangDetect(text: str, set: str = "all") -> str:
@@ -53,15 +54,16 @@ def LangDetect(text: str, set: str = "all") -> str:
         return str(e)
 
 # Second function
-print("2. LangDetect - result")
-text_to_detect = "Bonjour tout le monde"
-result_lang = LangDetect(text_to_detect, set="lang")
-result_confidence = LangDetect(text_to_detect, set="confidence")
-result_all = LangDetect(text_to_detect)
-print("Language:", result_lang)
-print("Confidence:", result_confidence)
-print("All:", result_all)
-print("-------------------------------------")
+if __name__ == "__main__":
+    print("2. LangDetect - result")
+    text_to_detect = "Bonjour tout le monde"
+    result_lang = LangDetect(text_to_detect, set="lang")
+    result_confidence = LangDetect(text_to_detect, set="confidence")
+    result_all = LangDetect(text_to_detect)
+    print("Language:", result_lang)
+    print("Confidence:", result_confidence)
+    print("All:", result_all)
+    print("-------------------------------------")
 
 
 def CodeLang(lang):
@@ -77,9 +79,10 @@ def CodeLang(lang):
         return "Language not found"
 
 # Third function
-print("3. CodeLang - result")
-print(CodeLang("uk"))
-print("-------------------------------------")
+if __name__ == "__main__":
+    print("3. CodeLang - result")
+    print(CodeLang("uk"))
+    print("-------------------------------------")
 
 
 def LanguageList(out="screen", text=None) -> str:
@@ -127,8 +130,9 @@ def LanguageList(out="screen", text=None) -> str:
 
 
 # Fought function
-result = LanguageList(out="screen", text="Hello, world!")
-print(result)
+if __name__ == "__main__":
+    result = LanguageList(out="screen", text="Hello, world!")
+    print(result)
 
-result = LanguageList(out="file", text="Hello, world!")
-print(result)
+    result = LanguageList(out="file", text="Hello, world!")
+    print(result)
