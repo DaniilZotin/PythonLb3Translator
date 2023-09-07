@@ -112,7 +112,7 @@ def OutputResult(text):
     if(view == "screen"):
         print("Language you get in the result: ", language)
         print(text)
-    if(view == "file"):
+    elif(view == "file"):
         path_to_folder = "./files_with_result/"
         new_file_name = "translation_" + language
         with open(path_to_folder + new_file_name, 'w', encoding='utf-8') as file:
@@ -134,11 +134,10 @@ def JsonConfigurationOpen():
         exit()
 
 GetInformationAboutFile()
-print("*******\n")
 config = JsonConfigurationOpen()
 language = config["code"]
 OutputResult(TransLate(ReadFile(),"en",language))
-print("*******\n")
+
 
 
 
