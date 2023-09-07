@@ -2,7 +2,6 @@ import json
 import os
 import nltk
 from langdetect import detect
-from deep_translator import GoogleTranslator
 import pycountry
 from main_package.first_part.translator import TransLate
 
@@ -96,17 +95,6 @@ def ReadFile() -> str:
         return f"File '{file_name}' does not exist in the root of directory."
 
 
-def Translate(text: str) -> str:
-    """
-        Translate text, get language from json
-
-        :param text: content you want to translate
-    """
-    config = JsonConfigurationOpen()
-
-    language = config["code"]
-    translated = GoogleTranslator(source='auto', target=language).translate(text)
-    return translated
 
 
 
@@ -148,11 +136,13 @@ def JsonConfigurationOpen():
 
 GetInformationAboutFile()
 print("*******\n")
-OutputResult(Translate(ReadFile()))
-print("*******\n")
-
-
 config = JsonConfigurationOpen()
 language = config["code"]
 OutputResult(TransLate(ReadFile(),"en",language))
+print("*******\n")
+print("*******\n")
+print("*******\n")
+print("*******\n")
+
+
 
